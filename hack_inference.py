@@ -3,7 +3,7 @@ import pickle
 from flask import Flask
 from flask import request, jsonify
 
-LOCAL_RUN = True
+LOCAL_RUN = False
 AWS_PORT = 8080
 
 app = Flask(__name__)
